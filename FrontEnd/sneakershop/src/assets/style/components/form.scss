@@ -1,0 +1,22 @@
+.c-form {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	align-items: center;
+}
+
+.c-form__label {
+	font-size: 1.5rem;
+	font-weight: var(--fontWeight-regular);
+
+	margin-top: 1.3rem;
+}
+
+.c-form__input {
+	all: unset;
+	width: 20rem;
+	font-size: 1.2rem;
+	font-weight: var(--fontWeight-light);
+
+	border-bottom: 1px solid var(--global-themeColor-dark);
+}

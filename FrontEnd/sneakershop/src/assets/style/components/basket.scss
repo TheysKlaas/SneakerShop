@@ -1,0 +1,14 @@
+.c-basket {
+	margin: 3rem 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.c-basket-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.c-basket-item-img {
+	width: 200px;
+}

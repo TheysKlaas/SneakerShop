@@ -1,0 +1,19 @@
+.c-register__link {
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 0.8rem;
+    font-weight: var(--fontWeight-regular);
+}
+
+@media (min-width: 768px) {
+    .c-register__link {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .c-register__link {
+        font-size: 1.2rem;
+    }
+}

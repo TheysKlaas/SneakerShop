@@ -1,0 +1,14 @@
+html,
+body {
+    font: 16px / 1.5 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+
+    color: var(--global-themeColor-dark);
+    background: var(--global-backgroundColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--global-themeColor-dark);
+}

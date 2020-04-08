@@ -1,0 +1,40 @@
+.c-error__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+}
+
+.c-error__message {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.c-error_size {
+    width: 80%;
+}
+
+.c-error_size-cls-1 {
+    font-size: 250px;
+    text-transform: uppercase;
+}
+
+.c-error_size-cls-1, .c-error_size-cls-2 {
+    fill: #38302e;
+    text-anchor: middle;
+    font-family: "Segoe UI";
+    font-weight: 600;
+}
+
+.c-error_size-cls-2 {
+    font-size: 91.667px;
+    font-variant: small-caps;
+}
+
+@media (min-width: 992px) {
+    .c-error_size {
+        width: 60%;
+    }
+}

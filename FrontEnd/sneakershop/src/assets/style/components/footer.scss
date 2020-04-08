@@ -1,0 +1,15 @@
+.c-footer {
+	background: var(--global-themeColor-dark);
+	color: var(--global-themeColor-light);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1.8rem;
+	text-align: center;
+	& p {
+		font-size: 1.1rem;
+		margin: 0;
+		padding-top: 0.08rem;
+	}
+}

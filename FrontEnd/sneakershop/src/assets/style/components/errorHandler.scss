@@ -1,0 +1,31 @@
+.c-errorHandler {
+    margin-bottom: -2rem;
+}
+
+.c-errorHandler__header {
+    font-size: 0.7rem;
+    font-weight: var(--fontWeight-bold);
+    color: red;
+    margin: 0;
+    margin-top: 0.7rem;
+}
+.c-errorHandler__error {
+    margin-top: 0;
+    padding-left:0;
+}
+
+.c-errorHandler__login {
+    display: none;
+}
+
+.c-errorHandler__login-show {
+    font-size: 0.7rem;
+    font-weight: var(--fontWeight-bold);
+    margin: 1rem auto -1rem auto;
+}
+
+.c-errorHandler__error-item {
+    font-size: 0.7rem;
+    color: red;
+    margin: 0;
+}

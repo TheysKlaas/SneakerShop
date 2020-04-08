@@ -1,0 +1,28 @@
+.c-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.c-table-row {
+	cursor: pointer;
+}
+.c-table td,
+.c-table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.c-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.c-table tr:hover {
+	background-color: #ddd;
+}
+
+.c-table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: var(--global-themeColor);
+	color: white;
+}

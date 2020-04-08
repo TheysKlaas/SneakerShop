@@ -1,0 +1,86 @@
+.c-sidebar {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	box-sizing: border-box; /* add padding on the inside */
+	padding: var(--gutter);
+
+	overflow-x: auto;
+	&-brands {
+		display: flex;
+		align-items: center;
+		&-checkbox {
+			margin-right: 0.5rem;
+		}
+		&-title {
+			margin-bottom: 1.5rem;
+		}
+	}
+	&-price {
+		margin-top: 5rem;
+		&-form {
+			width: 50%;
+		}
+		&-inputs {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 1rem;
+		}
+	}
+}
+.c-products {
+	height: 100vh;
+	box-sizing: border-box;
+	padding: var(--gutter) calc(var(--gutter) * 2) var(--gutter) var(--gutter);
+	overflow: auto;
+	&::-webkit-scrollbar {
+		display: none; /* Safari and Chrome */
+	}
+}
+// Detailview
+.c-productdetail {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 4rem;
+}
+.c-card-img {
+	width: 500px;
+	height: auto;
+	padding: 4rem 2rem;
+	background: #dddd;
+}
+.c-productdetail-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.radio-toolbar {
+	margin: 1rem 0;
+}
+
+.radio-toolbar input[type='radio'] {
+	opacity: 0;
+	position: fixed;
+	width: 0;
+}
+
+.radio-toolbar label {
+	display: inline-block;
+	background-color: #ddd;
+	padding: 1rem 2rem;
+	font-size: 16px;
+	border: none;
+}
+
+.radio-toolbar label:hover {
+	background-color: var(--global-themeColor);
+	color: white;
+}
+
+.radio-toolbar input[type='radio']:checked + label {
+	background-color: var(--global-themeColor);
+	color: white;
+}

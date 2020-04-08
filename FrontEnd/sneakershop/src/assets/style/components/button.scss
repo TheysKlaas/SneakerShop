@@ -1,0 +1,60 @@
+.c-button {
+	all: unset;
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	margin: 1rem 0;
+	padding: 1rem;
+}
+
+.c-button:focus {
+	// remove layout when focus
+	outline: 0;
+}
+
+// --- PRIMARY BUTTON
+.c-button__primary {
+	background: var(--global-themeColor);
+	font-weight: var(--fontWeight-bold);
+	text-align: center;
+}
+
+// --- SECONDARY BUTTON
+.c-button__secondary {
+	border: 3px solid var(--global-themeColor);
+	width: 30%;
+	margin-top: 1.2rem;
+}
+
+.c-button__secondary-text {
+	font-size: 0.8rem;
+	font-weight: var(--fontWeight-bold);
+	margin: 0px;
+	text-align: center;
+	color: black;
+}
+.c-button-order {
+	align-self: center;
+}
+.c-button-clear {
+	align-self: center;
+}
+// INPUTS
+
+.c-button__input {
+	all: unset;
+	text-align: center;
+	justify-content: center;
+	width: 80%;
+	padding: 0 10%;
+}
+
+.c-button__input-datetime {
+	padding: 6% 0;
+}
+.c-button__datetime {
+	width: 85%;
+	padding-left: 1rem;
+	background: none;
+	border: none;
+}

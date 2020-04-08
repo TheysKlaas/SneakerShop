@@ -1,0 +1,25 @@
+.c-brands {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-gap: var(--gutter);
+	align-items: center;
+	margin: 1rem 0;
+}
+.c-brand-logo {
+	width: 100px;
+	opacity: 0.5;
+
+	&:hover {
+		opacity: 1;
+		transition: opacity 300ms ease-out;
+	}
+}
+.c-brand-cards {
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 2rem;
+	justify-items: center;
+	align-items: center;
+}
+.c-brand-card-logo {
+	width: 300px;
+}
